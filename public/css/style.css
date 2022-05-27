@@ -1,0 +1,43 @@
+
+#list {
+    list-style: none;
+    padding: 0;
+  }
+  .container{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 3px black;
+    padding: 15px;
+    padding-top: 2px;
+    background-color: #ccc;
+  }
+  input[type=text]{
+    border: none; 
+    border:solid 1px #ccc;
+    border-radius: 10px;
+  }
+  button[type=submit]{
+    border: none; 
+    font-weight: bold;
+    padding: 3px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+  button.remove{
+      margin-left: 10px;
+      border: none; 
+      background-color: white;
+      color: red;
+  }
+  button.remove:hover{
+    margin-left: 10px;
+    padding: 3px 10px;
+    border: none; 
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
